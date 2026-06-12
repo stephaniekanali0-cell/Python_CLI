@@ -1,21 +1,83 @@
 [
     {
         "name": "Stephanie Kanali",
-        "email":"stephaniekanali@gmail.com"
+        "email":"stephaniekanali@gmail.com",
+
+        "projects":[
+            {"title": "Project 1",
+        "description": "This is the first project",
+        "due_date": "2023-12-31",
+    
+        "tasks":[
+            {"title": "Task 1",
+        "status": "Pending",
+        "assigned_to": "Stephanie Kanali"}
+        ]
+    
+    
+    }
+        ]
     },
+
 
     {
         "name":"Suraya Syombua",
-        "email":"surayasyombua@gmail.com"
+        "email":"surayasyombua@gmail.com",
+
+        "projects":[
+            {"title":"Project 2",
+        "description":"This is the second project",
+        "due_date":"2023-12-30",
+    
+        "tasks":[
+            {
+                "title":"Task 2",
+        "status":"Pending",
+        "assigned_to":"Suraya Syombua"
+            }
+        ]
+    }
+        ]
     },
+
+
 
     {
         "name":"Hellen Mbeneka",
-        "email":"hellenmbeneka@gmail.com"
+        "email":"hellenmbeneka@gmail.com",
+
+        "projects":[
+            { "title":"Project 3",
+        "description":"This is the third project",
+        "due_date":"2023-12-30",
+    
+        "tasks":[
+           { "title":"Task 3",
+        "status":"Completed",
+        "assigned_to":"Elena Gilbert"
+    }
+        ]
+    }
+        ]
     },
+
+
 
     {
         "name":"Elena Gilbert",
-        "email":"elenagilbert@gmail.com"
+        "email":"elenagilbert@gmail.com",
+
+        "projects":[
+          {  "title":"Project 4",
+        "description":"This is the fourth project",
+        "due_date":"2023-12-30",
+    
+       "tasks":[
+        {"title":"Task 4",
+        "status":"Completed",
+        "assigned_to":"Hellen Mbeneka"}
+       ]
+    }
+        ]
     }
 ]

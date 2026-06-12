@@ -5,7 +5,7 @@ class person:
         def __str__(self):
             return f"Name: {self.name}, Email:{self.email}"
 
-class user(person):
+class User(person):
     def __init__(self,name,email):
          super().__init__(name,email)
          self.projects = []
